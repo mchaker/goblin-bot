@@ -13,4 +13,8 @@ interop with multiple different chat services.
 - make changes in that branch
 - PR from that branch to master
 - delete work branch
-- one branch per feature/task/"deliverable"
+- (recommended) after merging and deleting the work branch from within the PR, 
+run `git fetch -p` locally to keep a clean local workspace (prunes deleted 
+branches)
+
+essentially, one branch per feature/task/"deliverable"
